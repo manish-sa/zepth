@@ -1,0 +1,8 @@
+checkout the code from https://github.com/manish-sa/zepth
+change the directory to project directory.
+run composer install
+run php spark db:create 
+run php spark migrate
+run php spark db:seed UserSeeder
+run php spark db:seed CompanySeeder
+run php spark serve (start the server at 8080 port)
